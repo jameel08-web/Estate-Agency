@@ -1,0 +1,483 @@
+:root {
+    --main-color: #295FB7;
+    --second-color: white;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.navbar-brand {
+    color: var(--main-color) !important;
+}
+
+.logoimg {
+    width: 25px;
+    height: 25px;
+}
+
+#signin {
+    background: none;
+    border: none;
+    color: black;
+}
+
+#signup,
+#viewall {
+    background: var(--main-color);
+    border: none;
+    color: var(--second-color);
+}
+
+.hero {
+    margin-top: 20px;
+    background-image: url("./asset/Rectangl.png");
+    background-size: cover;
+    height: auto;
+    position: relative;
+
+}
+
+.contentdiv {
+    width: 50%;
+}
+
+.contentcard {
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.container h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: var(--second-color);
+}
+
+.container h6 {
+    margin: 0 !important;
+}
+
+.container p {
+    font-size: 14px;
+    color: var(--second-color);
+    margin: 0 !important;
+    /* padding-top: clamp(5px, 2vw, 15px) !important; */
+}
+
+.image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.image img {
+    width: 500px !important;
+    opacity: 0.9;
+
+}
+
+.contentpara {
+    color: black !important;
+    font-size: 16px !important;
+}
+
+.lasticon i {
+    font-size: 22px;
+}
+.contentfooter{
+    padding-bottom: 25px;
+}
+.contentfooter i {
+    background-color: var(--second-color);
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.services,
+.Collection,
+.Feature {
+    padding: 70px 0;
+    background-color: #ecf4fd;
+}
+
+
+.Collection {
+    background-color: transparent;
+}
+
+.services h1,
+.Collection h1,
+.header h1,
+.text h1 {
+    color: var(--main-color);
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.services > p,
+.Collection > p{
+    text-align: center;
+    color: black;
+}
+.cardcollection, .cardcollectionactive{
+    padding: 10px;
+    background-color: #ECF4FD;
+}
+.cardcollection p{
+    color: black;
+}
+.cardcollection .lasttag, .cardcollectionactive .lasttag {
+    color: #FFAC33 !important;
+}
+
+#viewall {
+    padding: 8px 30px;
+}
+
+.cards img {
+    transition: transform 0.9s ease;
+
+}
+
+.text {
+    height: 0 !important;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(transparent, #101010b3, #000000);
+    padding: 0 50px;
+    text-align: center;
+    transition: height 0.9s ease;
+    overflow: hidden;
+
+}
+
+.cards:hover img {
+    transform: scale(1.1);
+}
+
+.cards:hover .text {
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.servicescard .active, .servicescard .servicecards{
+  background-image: url("asset/Rectangl.png");
+  color: white !important;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px !important;
+  text-align: center;
+}
+.servicescard .servicecards{
+   background: white;
+   color: var(--main-color) !important;
+}
+.active p{
+    color: white !important;
+    font-size: 15px;
+}
+.icondiv-active i, .icondiv i{
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;    
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icondiv i{
+    background-color:var(--main-color);
+    
+}
+.serviceicon{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.cardcollectionactive{
+    background-image: url("./asset/Rectangl.png");;
+    color: white;
+}
+footer {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./asset/footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  color: white;
+}
+
+footer h2{
+    color: white;
+    font-weight: bolder;
+}
+
+footer span{
+    color: white;
+    
+}
+
+
+
+form{
+    background-color: white;
+    padding: 35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+form h3{
+    color: var(--main-color);
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+input,textarea{
+    background-color: #D0D0D0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .contentdiv {
+        width: 100% !important;
+        height: 500px;
+
+    }
+
+    .contentdiv h1, .services h1,
+    .Collection h1,
+    .header h1,
+    .text h1 {
+        font-size: 40px;
+    }
+    .contentdiv p {
+        font-size: 14px;
+        text-align: center;
+    }.contentdiv p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    section.hero .contentfooter {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .contentdiv {
+        width: 100% !important;
+        height: 500px;
+    }
+
+    .contentdiv h1, .services h1,
+    .Collection h1,
+    .header h1,
+    .text h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .contentdiv p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    section.hero .contentfooter {
+        justify-content: center !important;
+    }
+
+
+
+
+}
+
+@media (max-width: 576px) {
+    .contentdiv {
+        width: 100% !important;
+        height: 500px;
+    }
+
+    .contentdiv h1 , .services h1,
+    .Collection h1,
+    .header h1,
+    .text h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .contentdiv p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    section.hero .contentfooter {
+        justify-content: center !important;
+    }
+
+    .contentcard {
+        padding: 10px;
+    }
+
+    .contentcard .contentpara {
+        font-size: 10px !important;
+        text-align: left !important;
+    }
+
+    .contentcard .contenticon {
+        font-size: 12px !important;
+    }
+
+    .contentcard .lasticon i {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .contentdiv {
+        width: 100% !important;
+        height: 500px;
+    }
+
+    .contentdiv h1 ,.services h1,
+    .Collection h1,
+    .header h1,
+    .text h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .contentcard {
+        padding: 5px;
+        gap: 0px;
+    }
+
+    .contentcard .contentpara {
+        font-size: 7px !important;
+        text-align: left !important;
+    }
+
+    .contentcard>div {
+        gap: 9px !important;
+    }
+
+
+}
